@@ -45,7 +45,7 @@ class GroceryList extends React.Component {
   // Hint: You can just simply set the groceries to an empty array.
   clearList() {
     let groceries = this.state.groceries
-    this.setState({groceries: [}])
+    this.setState({groceries: []})
   }
 
   render() {
